@@ -11,8 +11,7 @@
         },
         "bob": {
             "roles": [
-                "employee",
-                "billing"
+                "employee"
             ],
             "location": {
                 "country": "US",
@@ -22,6 +21,15 @@
         "eve": {
             "roles": [
                 "customer"
+            ],
+            "location": {
+                "country": "US",
+                "ip": "8.8.8.8"
+            }
+        },
+        "hongbo": {
+            "roles": [
+                "admin"
             ],
             "location": {
                 "country": "US",
