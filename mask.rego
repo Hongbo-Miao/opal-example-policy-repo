@@ -2,4 +2,6 @@
 
 package system.log
 
-mask["/input/action"]
+mask["/input/action"] {
+  input.input.user == "alice"
+}
