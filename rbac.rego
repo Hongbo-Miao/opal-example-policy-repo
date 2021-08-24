@@ -35,7 +35,7 @@ allow {
 
 	# Check if the grant permits the action.
 	input.action == grant.action
-	input.type == grant.type
+	input.resource == grant.resource
 }
 
 # user_is_admin is true if...
